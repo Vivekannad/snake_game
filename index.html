@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gameContainer {
+            text-align: center;
+        }
+        #gameBoard {
+            border: 3px solid;
+        }
+        #scoreText {
+            font-family: cursive;
+            font-size: 70px;
+        }
+        #resetBtn {
+            font-family: cursive;
+            font-size: 24px;
+            width: 100px;
+            height: 50px;
+            border: 2px solid;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="400" ></canvas>
+        <div id="scoreText">0</div>
+        <button id="resetBtn">Reset</button>
+        <!-- <audio controls preload="auto" >
+            <source src="./ArcSound - Suspense Intro Trailer (Cinematic Music).mp3" type="audio/mpeg">
+        </audio> -->
+    </div>
+    <!-- <button id="clickBtn">Click to play</button> -->
+    <script src="./app.js"></script>
+</body>
+</html>
